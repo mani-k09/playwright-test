@@ -1,0 +1,22 @@
+{
+  
+    "scripts": {
+  
+      
+    "test": "cucumber-js test"
+  
+    },
+  
+    "devDependencies": {
+  
+      
+    "@cucumber/cucumber": "^10.8.0",
+  
+      
+    "@playwright/test": "^1.46.0",
+  
+      
+    "ts-node": "^10.9.2"
+  
+    }
+}
