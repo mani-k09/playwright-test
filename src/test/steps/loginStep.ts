@@ -62,3 +62,6 @@ Given('User navigates to the application',async function () {
       console.log("toast message status is :" +failure_message)
       browser.close();
     });
+
+
+    

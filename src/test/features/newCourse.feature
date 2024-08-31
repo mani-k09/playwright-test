@@ -12,7 +12,7 @@ Scenario: Check user can enroll for the Cucumber course
     When User click new course button
     Then User should see title as "What is Cucumber?"
     When User click on Enroll to course button
-    Then User should see message as  "Enjoy the course in English or Tamil"
+    Then User should see message as "Enjoy the course in English or Tamil"
 
 
 
