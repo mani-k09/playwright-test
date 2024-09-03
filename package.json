@@ -3,8 +3,10 @@
     "scripts": {
   
       
-    "test": "cucumber-js test"
-  
+    "test": "cucumber-js test || true",
+    "posttest": "npx ts-node src/test/helper/report.ts",
+    "test:failed": "cucumber-js -p rerun @failedTests.txt"
+    
     },
   
     "devDependencies": {
@@ -14,6 +16,9 @@
   
       
     "@playwright/test": "^1.46.0",
+  
+      
+    "multiple-cucumber-html-reporter": "^3.7.0",
   
       
     "ts-node": "^10.9.2"

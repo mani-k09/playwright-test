@@ -3,3 +3,10 @@ node_modules/
 /playwright-report/
 /blob-report/
 /playwright/.cache/
+/test-results/
+/test-result/
+cucumber-report.html
+assets
+features
+@failedTests.txt
+index.html
