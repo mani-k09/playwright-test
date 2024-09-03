@@ -14,15 +14,15 @@ report.generate({
     device: "my-MAC",
     platform: {
       name: "Sonomo",
-      version: "16.04",
+      version: "14.6.1",
     },
   },
   customData: {
     title: "Run info",
     data: [
-      { label: "Project", value: "Let code application" },
+      { label: "Project", value: "Let code test application" },
       { label: "Release", value: "1.2.3" },
-      { label: "Cycle", value: "Smoke-Test-001" },
+      { label: "Cycle", value: "Smoke-Test-002" },
       { label: "Execution Start Time", value: (new Date).toLocaleString() },
       { label: "Execution End Time", value: (new Date).toLocaleString() },
     ],
